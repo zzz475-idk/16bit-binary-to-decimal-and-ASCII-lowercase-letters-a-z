@@ -1,10 +1,10 @@
-//MADE BY Zel76 AS AN ENTRY POINT TO THE RUST PROGRAMMING LANGUAGE
-//also check out my game made in godot ---> https://zel76.itch.io/tidy-cat
+//made by Zel76 as an entry point to the Rust programming language
+//also check out my game made with Godot ---> https://zel76.itch.io/tidy-cat
 fn main()
 {
     //enter the binary number here
     // TODO: replace them but don't erase them!
-    let bin: [u8; 16] = [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 1, 0]; //here is the TODO
+    let bin: [u8; 16] = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]; //here is the TODO
     let place: [u8; 16] = [16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1];
     let value: [u32; 16] = [32768, 16384, 8192, 4096, 2048, 1024, 512, 256, 128, 64, 32, 16, 8, 4, 2, 1];
     //the final number variable
@@ -133,6 +133,6 @@ fn main()
         }
 
         println!(" ");
-        println!("Ascii leter: {}", ascii_letter);
+        println!("ASCII leter: {}", ascii_letter);
     }
 }
