@@ -9,7 +9,7 @@ fn main()
     let value: [u32; 16] = [32768, 16384, 8192, 4096, 2048, 1024, 512, 256, 128, 64, 32, 16, 8, 4, 2, 1];
     //the final number variable
     let mut sum: u32 = 0;
-    let translate_to_letters: bool = true;
+    let translate_to_letters: bool = true; //change this if you don't want to translate to letters.
     let mut ascii_letter: char = ' ';
 
 
@@ -24,7 +24,7 @@ fn main()
     }
     println!("{}", sum);
 
-    //to letters
+    //to ascii letters
     if translate_to_letters == true
     {
         if sum == 97
@@ -133,6 +133,6 @@ fn main()
         }
 
         println!(" ");
-        println!("ASCII leter: {}", ascii_letter);
+        println!("ASCII letter: {}", ascii_letter);
     }
 }
